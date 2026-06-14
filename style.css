@@ -1,0 +1,690 @@
+/* ============================================
+   1. НОРМАЛИЗАЦИЯ СТИЛЕЙ (RESET)
+   ============================================ */
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+:where(ul, ol):where([class]) {
+    padding-left: 0;
+}
+
+body,
+:where(blockquote, figure, fieldset):where([class]) {
+    margin: 0;
+}
+
+:where(h1, h2, h3, h4, h5, h6, p, ul, ol, dl):where([class]) {
+    margin-block: 0;
+}
+
+:where(dd[class]) {
+    margin-left: 0;
+}
+
+:where(fieldset[class]) {
+    padding: 0;
+    border: none;
+}
+
+:where(ul[class]) {
+    list-style: none;
+}
+
+:where(address[class]) {
+    font-style: normal;
+}
+
+p {
+    --paragraphMarginBottom: 24px;
+    margin-block: 0;
+}
+
+p:where(:not([class]):not(:last-child)) {
+    margin-bottom: var(--paragraphMarginBottom);
+}
+
+img,
+video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+input,
+textarea,
+select,
+button {
+    font: inherit;
+}
+
+html {
+    height: 100%;
+    scrollbar-gutter: stable;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100%;
+    line-height: 1.5;
+}
+
+a:where([class]) {
+    display: inline-flex;
+}
+
+button,
+label {
+    cursor: pointer;
+}
+
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+:where([fill]:not([fill="none"], [fill^="url"])) {
+    fill: currentColor;
+}
+:where([stroke]:not([stroke="none"], [stroke^="url"])) {
+    stroke: currentColor;
+}
+svg * {
+    transition-property: fill, stroke;
+}
+
+:where(table) {
+    border-collapse: collapse;
+    border-color: currentColor;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    ::before,
+    ::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+/* ============================================
+   2. ГЛОБАЛЬНЫЕ СТИЛИ ПРОЕКТА
+   ============================================ */
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Основная обёртка */
+.app {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+/* Фоновый контейнер для hero-секции */
+.hero-background {
+    margin: 0 auto;
+    background: radial-gradient(ellipse at 0% 0%, #5b483a 0%, #262425 100%);
+}
+
+/* ===== ШАПКА САЙТА ===== */
+.site-header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 3rem 4rem 0;
+    width: 128rem;
+}
+
+/* Логотип */
+.brand {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.brand__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.2rem;
+    line-height: 110%;
+    letter-spacing: 6%;
+    color: #f1cdb3;
+}
+.brand__subtitle {
+    font-size: 1.3rem;
+    line-height: 100%;
+    letter-spacing: 10%;
+}
+
+/* Навигация */
+.primary-nav__list {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 44.3rem;
+    gap: 3.5rem;
+}
+.primary-nav__link {
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #cdcdcd;
+}
+.primary-nav__link:hover {
+    color: #fafafa;
+}
+.primary-nav__link--active {
+    color: #fafafa;
+    border-bottom: 3px solid #f1cdb3;
+    cursor: default;
+    pointer-events: none;
+}
+
+/* ===== ГЛАВНЫЙ ЭКРАН (HERO) ===== */
+.hero {
+    background-image: url(./images/start-screen-puppy.png);
+    background-repeat: no-repeat;
+    background-size: 69.8rem 72.8rem;
+    background-position: 93% 50%;
+    margin: 0 auto;
+    margin-top: 9rem;
+    width: 128rem;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 16.3rem;
+    margin-left: 4rem;
+    max-width: 46rem;
+    gap: 4.2rem;
+}
+.hero__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 4.4rem;
+    line-height: 130%;
+    color: #ffffff;
+    max-width: 31rem;
+}
+.hero__text {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 160%;
+    color: #cdcdcd;
+}
+.hero__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #292929;
+    background-color: #f1cdb3;
+    width: 20.7rem;
+    height: 5.2rem;
+    border-radius: 10rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 6%;
+    margin-bottom: 24.3rem;
+}
+
+/* ===== СЕКЦИЯ "О ПРИЮТЕ" ===== */
+.about__container {
+    margin: 8rem auto;
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin-bottom: 10rem;
+}
+.about__image {
+    width: 30rem;
+    height: 40.8rem;
+}
+.about__info {
+    max-width: 43rem;
+    padding-top: 1.3rem;
+}
+.about__heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+    max-width: 37rem;
+}
+.about__paragraph {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 160%;
+    font-weight: 400;
+    color: #4c4c4c;
+    margin-top: 2.5rem;
+}
+
+/* ===== СЕКЦИЯ "НАШИ ДРУЗЬЯ" (СЛАЙДЕР) ===== */
+.pets {
+    background-color: #f6f6f6;
+    width: 100%;
+}
+.pets__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.pets__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+    max-width: 40rem;
+    margin: 0 auto;
+    margin-top: 8rem;
+    text-align: center;
+}
+.pets__carousel {
+    display: flex;
+    flex-direction: row;
+    max-width: 120rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel__arrow--left,
+.carousel__arrow--right {
+    background-image: url(./images/left-Arrow.png);
+    height: 5.2rem;
+    width: 5.2rem;
+    border-radius: 10rem;
+    border: 2px solid #f1cdb3;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: inherit;
+}
+.carousel__arrow--right {
+    background-image: url(./images/right-Arrow.png);
+}
+.carousel__track {
+    display: flex;
+    gap: 9rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5.3rem;
+}
+/* Карточка питомца */
+.pet-card {
+    max-width: 27rem;
+    background-color: #fafafa;
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pet-card:hover,
+.pets-page__card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.pet-card:hover .pet-card__button,
+.pets-page__card:hover .pet-card__button {
+    cursor: pointer;
+    background-color: #fddcc4;
+    transition: all 0.3s ease;
+}
+.pet-card__image {
+    width: 27rem;
+    height: 27rem;
+}
+.pet-card__name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 100%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+.pet-card__button {
+    border-radius: 10rem;
+    border: 2px solid #f1cdb3;
+    padding: 1.3rem 4.4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #292929;
+    font-weight: 400;
+    margin: 3.2rem auto;
+    background-color: inherit;
+}
+.pets__action-btn {
+    border-radius: 10rem;
+    background-color: #f1cdb3;
+    padding: 1.5rem 4.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.7rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #292929;
+    font-weight: 400;
+    margin-bottom: 10rem;
+}
+
+/* ===== СЕКЦИЯ "ЧЕМ ПОМОЧЬ" ===== */
+.support__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem auto 10rem;
+    max-width: 120rem;
+}
+.support__title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #545454;
+    margin-bottom: 6rem;
+    font-weight: 400;
+    max-width: 31rem;
+    text-align: center;
+}
+.support__list {
+    max-width: 103rem;
+    display: flex;
+    gap: 5.5rem 12rem;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+.support__icon {
+    width: 6rem;
+    height: 6rem;
+    margin: 0 auto;
+}
+.support__label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 115%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+/* ===== СЕКЦИЯ "ДОНАТ" ===== */
+.donation {
+    background-color: #f6f6f6;
+    padding-bottom: 10rem;
+}
+.donation__container {
+    margin: 0 auto;
+    padding-top: 8rem;
+    max-width: 91.5rem;
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.donation__info {
+    max-width: 38rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.donation__heading {
+    max-width: 30rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    line-height: 130%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+}
+.donation__bank {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 110%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+}
+.donation__card-link {
+    position: relative;
+    border-radius: 0.9rem;
+    background-color: #f1cdb3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    line-height: 115%;
+    letter-spacing: 6%;
+    color: #545454;
+    font-weight: 400;
+    padding: 1rem 1.5rem 1rem 6rem;
+}
+.donation__card-link::before {
+    position: absolute;
+    content: '';
+    background-image: url(./images/credit-card.svg);
+    width: 3rem;
+    height: 2.3rem;
+    background-repeat: no-repeat;
+    top: 1rem;
+    left: 1.5rem;
+}
+.donation__legal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    color: #b2b2b2;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* ===== ПОДВАЛ (FOOTER) ===== */
+.site-footer {
+    background-image: url(./images/footer-back.png);
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    margin: 0 auto;
+}
+.site-footer__inner {
+    max-width: 120rem;
+    display: flex;
+    gap: 16rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+}
+.site-footer__contacts {
+    max-width: 28rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site-footer__heading {
+    font-size: 3.5rem;
+    color: #ffffff;
+    line-height: 130%;
+    font-weight: 400;
+    letter-spacing: 6%;
+    margin-top: 1.6rem;
+}
+.site-footer__contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+.site-footer__contact-item {
+    max-width: 25.1rem;
+}
+.site-footer__link {
+    font-size: 2rem;
+    color: #f1cdb3;
+    line-height: 115%;
+    font-weight: 400;
+    letter-spacing: 6%;
+    position: relative;
+    padding-left: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.4rem;
+}
+.site-footer__link--email::before {
+    content: '';
+    position: absolute;
+    background-image: url(./images/icon-email.svg);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 3.2rem;
+    left: 0;
+    top: 0;
+}
+.site-footer__link--phone::before {
+    content: '';
+    position: absolute;
+    background-image: url(./images/icon-phone.svg);
+    background-repeat: no-repeat;
+    width: 4rem;
+    height: 3.2rem;
+    left: 0;
+    top: 0;
+}
+.site-footer__address {
+    max-width: 30.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site-footer__address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    margin-top: 2.2rem;
+}
+.site-footer__link--location {
+    max-width: 30.2rem;
+    padding-left: 4rem;
+}
+.site-footer__link--location::before {
+    content: '';
+    position: absolute;
+    background-image: url(./images/icon-marker.png);
+    background-repeat: no-repeat;
+    width: 2.2rem;
+    height: 3.2rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Эффекты при наведении на кнопки и стрелки */
+.hero__button:hover,
+.pets__action-btn:hover,
+.carousel__arrow--left:hover,
+.carousel__arrow--right:hover,
+.pagination__btn:hover {
+    cursor: pointer;
+    background-color: #fddcc4;
+    transition: all 0.3s ease;
+}
+
+/* ============================================
+   3. СТИЛИ ДЛЯ СТРАНИЦЫ OUR PETS
+   ============================================ */
+
+/* Тёмная тема для шапки (страница питомцев) */
+.brand__title--dark,
+.primary-nav__link--dark {
+    color: #545454;
+}
+.brand__subtitle--dark {
+    color: #292929;
+}
+.primary-nav__link--dark.primary-nav__link--active {
+    color: #292929;
+}
+.primary-nav__link--dark:hover {
+    color: #292929;
+}
+.site-header--dark .site-header__inner {
+    padding-bottom: 3rem;
+}
+
+/* Сетка карточек на странице питомцев */
+.pets-page__grid {
+    display: flex;
+    gap: 3rem 4rem;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
+}
+.pets-page__card {
+    max-width: 27rem;
+    background-color: #fafafa;
+    border-radius: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Пагинация */
+.pagination {
+    max-width: 34rem;
+    display: flex;
+    gap: 2rem;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+    padding-bottom: 10rem;
+}
+.pagination__btn {
+    width: 5.2rem;
+    height: 5.2rem;
+    border-radius: 10rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 115%;
+    letter-spacing: 6%;
+    border: 2px solid #f1cdb3;
+    background-color: inherit;
+    padding: 0;
+}
+.pagination__btn:disabled {
+    cursor: not-allowed;
+    border-color: #cdcdcd;
+    color: #cdcdcd;
+}
+.pagination__btn:disabled:hover {
+    background-color: inherit;
+}
+.pagination__btn--active {
+    background-color: #f1cdb3;
+}
+.pagination__btn--active:hover {
+    background-color: #f1cdb3;
+    cursor: default;
+}
