@@ -1,0 +1,32 @@
+@media screen and (max-width: 767.5px) {
+  .pagination_pets__content_wrapper {
+    gap: 42px;
+  }
+
+  .pagination_pets__content_wrapper {
+    padding: 42px 10px;
+  }
+
+  .pets__slider_cards[data-is-home="false"] > ul {
+    display: flex;
+    gap: 30px 40px;
+  }
+
+  .pets__slider_cards[data-is-home="false"] > ul > li:nth-child(1),
+  .pets__slider_cards[data-is-home="false"] > ul > li:nth-child(2),
+  .pets__slider_cards[data-is-home="false"] > ul > li:nth-child(3) {
+    display: flex;
+  }
+
+  .pagination_pets__button {
+    gap: 10px;
+  }
+
+  .pagination_pets__h {
+    font-family: var(--h3-mobile--font-family);
+    font-weight: var(--h3-mobile--font-weight);
+    font-size: var(--h3-mobile--font-size);
+    line-height: var(--h3-mobile--line-height);
+    letter-spacing: var(--h3-mobile--letter-spacing);
+  }
+}
