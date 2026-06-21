@@ -1,0 +1,115 @@
+@media screen and (min-width: 1280px) {
+  .main_section {
+    height: 908px;
+    background:
+      url(../../../assets/main_sections/start-screen-gradient-background.png) 0% 0% /
+        110px 110px repeat,
+        radial-gradient(70% 160% at 0% 0%, #5b483a 0%, #262425 100%);
+  }
+
+  .header__content {
+    display: flex;
+    justify-content: space-between;
+
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* logo */
+
+  .header__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    max-width: 186px;
+    text-decoration: none;
+  }
+
+  .header__logo_title {
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 6%;
+    color: var(--color-primary);
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .header__logo_subtitle {
+    font-family: Arial;
+    font-size: 13px;
+    letter-spacing: 10%;
+    color: var(--color-light-xl);
+  }
+
+  .header__burger_menu {
+    display: none;
+  }
+
+  /* nav menu */
+
+  .header__nav_menu {
+    display: flex;
+    align-items: center;
+  }
+
+  .header__nav_menu > ul {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 35px;
+  }
+
+  .header__nav_menu > ul > li {
+    list-style-type: none;
+  }
+
+  .header__nav_menu > ul > li > a,
+  .header__nav_menu > ul > li > button {
+    display: block;
+    text-decoration: none;
+    color: var(--color-dark-s);
+    background-color: transparent;
+    border: 0 solid transparent;
+
+    cursor: pointer;
+  }
+
+  .header[data-is-home="false"] .header__nav_menu > ul > li > a,
+  .header[data-is-home="false"] .header__nav_menu > ul > li > button {
+    color: var(--color-dark-l);
+  }
+
+  .header__nav_menu_element--active {
+    cursor: default !important;
+    border-bottom: 3px solid var(--color-primary) !important;
+  }
+}
+
+.header {
+  height: 60px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.header[data-is-home="false"] .header__logo_title {
+  color: var(--color-dark-l);
+}
+
+.header[data-is-home="false"] .header__logo_subtitle {
+  color: var(--color-dark-l);
+}
+
+.header__logo > .header__logo_title {
+  transition: all 0.5s ease-in-out;
+}
+
+.header__logo:hover > .header__logo_title {
+  transition: all 0.5s ease-in-out;
+  color: var(--color-primary-light);
+}
