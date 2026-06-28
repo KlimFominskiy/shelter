@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fcaba47-e495-4349-8d0f-0cd3d5df93de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="8fcaba47-e495-4349-8d0f-0cd3d5df93de" name="Changes" comment="feat: part 3 (JavaScript functionality) is done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/media320.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/media320.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/menu-burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/menu-burger.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/pets.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/pets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets.css" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets.html" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/petsPagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/pets/petsPagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets_media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,11 +26,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KlimFominskiy"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KlimFominskiy/shelter.git",
+    "accountId": "346c5c4d-365e-4eb0-84fa-e8634e212937"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="3F7xBM3F7sx0QCyJ15mfPZWEfOT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,11 +57,25 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "shelter-part3",
+    "last_opened_file_path": "D:/Projects/shelter/pages/pets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\shelter\pages\pets" />
+      <recent name="D:\Projects\shelter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\shelter" />
+      <recent name="D:\Projects\shelter\pages\main" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,10 +91,36 @@
       <option name="presentableId" value="Default" />
       <updated>1781439780166</updated>
       <workItem from="1781439782968" duration="106000" />
+      <workItem from="1782677952441" duration="2196000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: part 3 (JavaScript functionality) is done">
+      <option name="closed" value="true" />
+      <created>1782679389004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782679389004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: part 2 (responsive layout) is done" />
+    <MESSAGE value="feat: part 3 (JavaScript functionality) is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: part 3 (JavaScript functionality) is done" />
   </component>
 </project>

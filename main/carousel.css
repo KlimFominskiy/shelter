@@ -1,0 +1,57 @@
+/* Анимации для карусели (три набора для разных размеров экрана) */
+
+/* === Набор 1 (десктоп, ~1200px) === */
+.move-right {
+    animation: go-right 1s;
+}
+@keyframes go-right {
+    from { left: -1200px; }
+    to   { left: -2400px; }
+}
+
+.move-left {
+    animation: go-left 1s;
+}
+@keyframes go-left {
+    from { left: -1200px; }
+    to   { left: 0px;     }
+}
+
+/* === Набор 2 (планшет, ~708px) === */
+.move-right2 {
+    animation: go-right2 1s;
+}
+@keyframes go-right2 {
+    from { left: -708px; }
+    to   { left: -1416px; }
+}
+
+.move-left2 {
+    animation: go-left2 1s;
+}
+@keyframes go-left2 {
+    from { left: -708px; }
+    to   { left: 0px;    }
+}
+
+/* === Набор 3 (мобильный, ~300px) === */
+.move-right3 {
+    animation: go-right3 1s;
+}
+@keyframes go-right3 {
+    from { left: -300px; }
+    to   { left: -600px; }
+}
+
+.move-left3 {
+    animation: go-left3 1s;
+}
+@keyframes go-left3 {
+    from { left: -300px; }
+    to   { left: 0px;    }
+}
+
+/* Вспомогательный класс для скрытия элементов */
+.hidden {
+    display: none;
+}
