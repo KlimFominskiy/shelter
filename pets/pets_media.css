@@ -1,0 +1,136 @@
+/* ===== Адаптивные стили для страницы "Our Pets" ===== */
+
+@media screen and (max-width: 1070px) {
+    html {
+        font-size: 16px;
+    }
+    header {
+        padding: 30px 0 33px;
+    }
+    .logo-subtitle {
+        line-height: 26px;
+    }
+    section.pets .page {
+        padding: 77px 0 77px;
+        gap: 28px;
+    }
+    .item2 {
+        grid-template-columns: 38.13% 38.13%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 34px;
+    }
+    .navigation {
+        margin: 15px 0 0;
+        column-gap: 20px;
+    }
+    .item2 .card:nth-child(3) {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+    section.pets .page {
+        padding: 41px 0 42px;
+        gap: 40px;
+    }
+    .item2 .card:nth-child(2),
+    .item2 .card:nth-child(3),
+    .item2 .card:nth-child(4),
+    .item2 .card:last-child {
+        display: grid;
+    }
+    .item2 {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 34px;
+    }
+    .card {
+        justify-content: center;
+    }
+    .navigation {
+        margin: 7px 0 0;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    html {
+        font-size: 16px;
+    }
+    .page {
+        width: calc(300 / 320 * 100%);
+        height: 1649px;
+    }
+    header {
+        padding: 28px 0 33px 10px;
+    }
+    .header .page {
+        width: 280px;
+    }
+    h1,
+    h3 {
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+    section.pets .page {
+        padding: 41px 0 42px;
+        gap: 40px;
+    }
+    .item2 .card:nth-child(2),
+    .item2 .card:nth-child(3),
+    .item2 .card:nth-child(4),
+    .item2 .card:last-child {
+        display: grid;
+    }
+    .item2 {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        column-gap: 40px;
+        row-gap: 34px;
+    }
+    .card {
+        justify-content: center;
+    }
+    .navigation {
+        margin: 7px 0 0;
+        column-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .bar {
+        display: block;
+        width: 30px;
+        height: 2px;
+        margin: 4px auto;
+        background-color: rgb(8, 8, 8);
+        transition: 0.4s;
+    }
+    .header-bar.change {
+        display: grid;
+        transform: translateX(5px) rotate(90deg);
+    }
+    .header-bar.change .bar {
+        background-color: #F1CDB3;
+        transition: 0.4s;
+    }
+}

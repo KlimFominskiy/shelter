@@ -1,0 +1,124 @@
+/* ===== Стили для страницы "Our Pets" ===== */
+
+/* Заголовок h1 */
+h1 {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    text-align: center;
+}
+
+/* Логотип (цвета для страницы pets) */
+.logo-title {
+    color: #545454;
+}
+.logo-title a {
+    color: #545454;
+}
+
+.logo-subtitle {
+    color: #292929;
+}
+
+/* Навигация */
+.nav li a:hover {
+    cursor: pointer;
+    color: #000000;
+}
+
+.menu-link {
+    color: #545454;
+}
+.menu-link:hover {
+    color: #292929;
+}
+.menu-link:active,
+.menu-link.active {
+    color: #000000;
+    border: 3px solid;
+    border-width: 0px 0px 3px;
+    border-color: transparent transparent #F1CDB3 transparent;
+}
+
+/* Шапка */
+header {
+    padding: 30px 0 33px;
+}
+
+/* Секция с карточками */
+.pets {
+    padding: 0;
+}
+
+.carousel2 {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+
+.item2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+    column-gap: 40px;
+    row-gap: 34px;
+    width: 100%;
+}
+
+/* Пагинация (навигационные кнопки) */
+.navigation {
+    display: flex;
+    column-gap: 21px;
+}
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    cursor: pointer;
+    background: #F6F6F6;
+}
+
+.center {
+    background: #F1CDB3;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+}
+
+.none-active {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    pointer-events: none;
+}
+
+.none-active:hover,
+.none-active:active {
+    border: 2px solid #CDCDCD;
+    color: #CDCDCD;
+    background: rgb(240, 240, 240);
+}
+
+.active-btn {
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    cursor: pointer;
+}
+
+.center:hover,
+.active-btn:hover,
+.active-btn:active {
+    background: #FDDCC4;
+    border: 2px solid #FDDCC4;
+}

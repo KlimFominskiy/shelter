@@ -4,148 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8fcaba47-e495-4349-8d0f-0cd3d5df93de" name="Changes" comment="feat: part 2 (responsive layout) is done">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_21_2026_11_24_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_21_2026_11_24_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/about_section/pets.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/donation_section/credit-card.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/donation_section/donation-dog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_114.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_120.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_144.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_150.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_152.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_16.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_180.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_192.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_256.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_256.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_310.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_310x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_32.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_36.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_48.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_57.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_60.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_70.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_70.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_72.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_76.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_96.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/favicon_orig.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/ieconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/favicon/manifest.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/footer/footer-puppy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/footer/icon-email.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/footer/icon-marker.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/footer/icon-phone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-bowls-and-cups.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-collars-leashes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-medicines.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-pet-food.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-shampoos.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-sleeping-area.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-toys.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-transportation.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/help_section/icon-vitamins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/main_sections/start-screen-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/main_sections/start-screen-gradient-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/main_sections/start-screen-puppy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Charly.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Freddie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Jennifer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Katrine.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Scarlett.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Sophia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Timmy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pagination_pets_section/pets-Woody.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/colors.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/1__header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/2__start_screen__section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/3__about_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/4__pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/5__help_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/6__donation_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/7__footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0320px/8__pagination_pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/1__header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/2__start_screen__section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/3__about_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/4__pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/5__help_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/6__donation_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/7__footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/0768px/8__pagination_pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/1__header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/2__start_screen__section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/3__about_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/4__pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/5__help_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/6__donation_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/7__footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/media/1280px/8__pagination_pets_section.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pets/index.html" afterDir="false" />
+    <list default="true" id="8fcaba47-e495-4349-8d0f-0cd3d5df93de" name="Changes" comment="feat: part 3 (JavaScript functionality) is done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/about-pets.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/credit-card.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/donation-dog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer-back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer-gradient-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/footer-puppy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-bowls-and-cups.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-collars-leashes.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-email.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-marker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-medicines.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-pet-food.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-phone.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-shampoos.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-sleeping-area.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-toys.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-transportation.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-vitamins.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/left-Arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-charly.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-freddie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-jennifer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-katrine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-scarlet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-sofine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-timmy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/pets-woody.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/right-Arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/start-screen-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/start-screen-gradient-background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/start-screen-puppy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-pets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/media320.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/media320.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/menu-burger.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/menu-burger.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/pets.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/pets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/main/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets.css" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets.html" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/petsPagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/pets/petsPagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pets/pets_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/pets/pets_media.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,6 +33,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KlimFominskiy"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KlimFominskiy/shelter.git",
+    "accountId": "346c5c4d-365e-4eb0-84fa-e8634e212937"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -172,12 +57,25 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "shelter-part2",
+    "git-widget-placeholder": "shelter-part3",
+    "last_opened_file_path": "D:/Projects/shelter/pages/pets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\shelter\pages\pets" />
+      <recent name="D:\Projects\shelter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\shelter" />
+      <recent name="D:\Projects\shelter\pages\main" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -193,7 +91,17 @@
       <option name="presentableId" value="Default" />
       <updated>1781439780166</updated>
       <workItem from="1781439782968" duration="106000" />
+      <workItem from="1782677952441" duration="2196000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: part 3 (JavaScript functionality) is done">
+      <option name="closed" value="true" />
+      <created>1782679389004</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782679389004</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: part 2 (responsive layout) is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: part 2 (responsive layout) is done" />
+    <MESSAGE value="feat: part 3 (JavaScript functionality) is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: part 3 (JavaScript functionality) is done" />
   </component>
 </project>
